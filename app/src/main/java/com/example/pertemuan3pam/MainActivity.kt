@@ -1,4 +1,4 @@
-package com.example.pertemuan3Pam
+package com.example.pertemuan3pam
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
