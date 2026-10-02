@@ -110,3 +110,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .background(Color.White),
                 contentAlignment = Alignment.Center
             ) {
+                Image(
+                    painter = profileImage,
+                    contentDescription = "Foto Profil",
+                    modifier = Modifier
+                        .size(170.dp)
+                        .clip(CircleShape),
+                    contentScale = ContentScale.Crop
+                )
+            }
+        }
+    }
+}
