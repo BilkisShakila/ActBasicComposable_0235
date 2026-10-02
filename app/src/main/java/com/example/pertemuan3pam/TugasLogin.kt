@@ -28,3 +28,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     val bgImage = painterResource(id = R.drawable.background) // Gambar Background
     val logoUmy = painterResource(id = R.drawable.logo) // Logo / Atas
     val profileImage = painterResource(id = R.drawable.foto) // Foto Bulat Bawah
+
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopCenter
+    ) {
+        // 1. Background Image Full Layar
+        Image(
+            painter = bgImage,
+            contentDescription = "Background",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
